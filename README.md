@@ -4,8 +4,8 @@
 
 <img src="space-page.gif" alt="space-page">
 
-> The back-end repository of the [Space Page website.](https://leonardo-space-page.herokuapp.com/)
-<!--- >[Check React Api right here.](https://github.com/Leomelati/space-page) -->
+> The back-end repository of the [Space Page website.](https://leonardo-space-page.herokuapp.com/)  
+> [Check React Api right here.](https://github.com/Leomelati/space-page)
 
 <details>
   <summary>Table of Contents</summary>
