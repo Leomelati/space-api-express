@@ -3,8 +3,11 @@ import { ApiError } from "../models/api-error";
 
 class DestinationController{
 
+  public createDestination(req:Request, res:Response, next: NextFunction) {
+    return res.json(req.body);
+  }
+
   public destination(req:Request, res:Response, next: NextFunction) {
-    return next(new ApiError(404, "Destination not found"));
     return res.json({
       message: 'Hello Destination!'
     });

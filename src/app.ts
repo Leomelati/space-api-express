@@ -1,5 +1,4 @@
 import express from "express";
-import mongoose from "mongoose";
 import { ApiError } from "./models/api-error";
 import { crewRouter } from "./routes/crew-routes";
 import { destinationRouter } from "./routes/destination-routes";
