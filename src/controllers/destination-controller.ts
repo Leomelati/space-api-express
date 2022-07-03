@@ -1,9 +1,21 @@
 import { NextFunction, Request, Response } from "express";
-import { ApiError } from "../models/api-error";
+import { validationResult } from "express-validator";
 
 class DestinationController{
 
   public createDestination(req:Request, res:Response, next: NextFunction) {
+    const errors = validationResult(req)
+    if (!errors.isEmpty())
+      return res.status(400).json(errors.mapped());
+
+    return res.json(req.body);
+  }
+
+  public updateDestination(req:Request, res:Response, next: NextFunction) {
+    const errors = validationResult(req)
+    if (!errors.isEmpty())
+      return res.status(400).json(errors.mapped());
+
     return res.json(req.body);
   }
 

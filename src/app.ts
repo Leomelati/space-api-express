@@ -28,7 +28,7 @@ export class App {
 
   private errorHandler() {
     this.server.use(() => {
-      const error = new ApiError(404, "Could not find this route.");
+      const error = new ApiError("Could not find this route.", 404);
       throw error;
     })
 
