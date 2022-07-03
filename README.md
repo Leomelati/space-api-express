@@ -4,7 +4,7 @@
 
 <img src="space-page.gif" alt="space-page">
 
-> The back-end repository of the [Space Page website.](https://leonardo-space-page.herokuapp.com/)  
+> The back-end repository of the [Space Page website.](https://leonardo-space-page.herokuapp.com/)
 > [Check React Api right here.](https://github.com/Leomelati/space-page)
 
 <details>
@@ -33,8 +33,8 @@ The included technologies are:
 - [ ] Add Crew Controller/Service/Repository
 - [ ] Add Technology Controller/Service/Repository
 - [ ] Connect front-end and back-end
-- [ ] Deploy Application
-- [ ] Implements CI/CD
+- [x] Deploy Application
+- [x] Implements CI/CD
 
 ## Contact
 
