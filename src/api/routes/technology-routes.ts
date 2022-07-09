@@ -18,6 +18,4 @@ technologyRouter.put("/",
   technologyController.updateTech
 );
 
-technologyRouter.get("/", technologyController.technology);
-
 export { technologyRouter };

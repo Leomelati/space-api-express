@@ -1,8 +1,8 @@
 import express from "express";
-import { ApiError } from "./models/api-error";
-import { crewRouter } from "./routes/crew-routes";
-import { destinationRouter } from "./routes/destination-routes";
-import { technologyRouter } from "./routes/technology-routes";
+import { ApiError } from "./domain/models/api-error";
+import { crewRouter } from "./api/routes/crew-routes";
+import { destinationRouter } from "./api/routes/destination-routes";
+import { technologyRouter } from "./api/routes/technology-routes";
 
 export class App {
   public server: express.Application;
